@@ -1,0 +1,47 @@
+[
+    {
+        "name": "knygnesiai",
+        "project": "Knygų mainai",
+        "members": ["Mindaugas Bernotas", "Tadas Kundelis"],
+        "mentors": ["Karolis Mačiulskis"]
+    },
+    {
+        "name": "carbooking",
+        "project": "Car Booking",
+        "members": ["Matas Kazanavicius", "Adomas Poleninas", "Aidas Eglinskas"],
+        "mentors": ["Monika Kriksciuniene", "Tomas Karsatovas"]
+    },
+    {
+        "name": "academyui",
+        "project": "NFQ Akademijos puslapis",
+        "members": ["Indre Krasauskaite"],
+        "mentors": ["Tomas Karsatovas"]
+    },
+    {
+        "name": "academyui",
+        "project": "NFQ Akademijos puslapis",
+        "members": ["Indre Krasauskaite"],
+        "mentors": ["Tomas Karsatovas"]
+    },
+    {
+        "name": "buhalteriui",
+        "project": "Pagalba buhalteriui",
+        "members": ["Geraldas Kasperovičius", "Matas Kulingauskas"],
+        "mentors": ["Aistis Stramkauskas"]
+    },
+    {
+        "name": "mapsportas",
+        "project": "Sporto Draugas",
+        "members": ["Mantas Gelezinis", "Pijus Pauliukonis"],
+        "mentors": ["Agnis Belte"]
+    },
+    {
+        "name": "train me",
+        "project": "Asmeninio trenerio puslapis",
+        "members": ["Ignas Dailyde", "Gintautas Plonis"],
+        "mentors": ["Laurynas Valenta"]
+    }
+]
+
+
+

@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }}{% endblock %}
+
+{% block body %}
+    <ul class="list-group m-4">
+        <li class="list-group-item list-group-item-info">Studentai</li>
+        {% for team in teams %}
+            {% for student in team.members %}
+                <li class="list-group-item">
+                    <a class="list__link"
+                       href="{{ path('student', {student: student|url_encode, project: team.project|url_encode}) }}">{{ student }}</a>
+                    <span class="badge">( {{ team.mentors|length > 1 ? 'Mentoriai':'Mentorius' }} </span> {{ team.mentors|join(', ') }} )
+                </li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+{% endblock %}
